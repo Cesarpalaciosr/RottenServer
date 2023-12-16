@@ -2,7 +2,6 @@ import { Router } from "express";
 import passport from "passport";
 
 import {deleteUser, editpassword, edituser, FindUser} from "../controllers/user.controller";
-import {AddOrRemoveLike, CheckLike, GetLikes} from "../controllers/rate.controller";
 import {DeleteComment, getComments, GetCommentsNumber, NewComment} from "../controllers/comment.controller";
 
 
